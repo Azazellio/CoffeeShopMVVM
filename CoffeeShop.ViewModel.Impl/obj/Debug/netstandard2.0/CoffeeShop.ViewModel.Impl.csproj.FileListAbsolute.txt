@@ -1,0 +1,9 @@
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.ViewModel.Impl\bin\Debug\netstandard2.0\CoffeeShop.ViewModel.Impl.deps.json
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.ViewModel.Impl\bin\Debug\netstandard2.0\CoffeeShop.ViewModel.Impl.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.ViewModel.Impl\bin\Debug\netstandard2.0\CoffeeShop.ViewModel.Impl.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.ViewModel.Impl\obj\Debug\netstandard2.0\CoffeeShop.ViewModel.Impl.csprojAssemblyReference.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.ViewModel.Impl\obj\Debug\netstandard2.0\CoffeeShop.ViewModel.Impl.csproj.CoreCompileInputs.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.ViewModel.Impl\obj\Debug\netstandard2.0\CoffeeShop.ViewModel.Impl.AssemblyInfoInputs.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.ViewModel.Impl\obj\Debug\netstandard2.0\CoffeeShop.ViewModel.Impl.AssemblyInfo.cs
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.ViewModel.Impl\obj\Debug\netstandard2.0\CoffeeShop.ViewModel.Impl.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.ViewModel.Impl\obj\Debug\netstandard2.0\CoffeeShop.ViewModel.Impl.pdb

@@ -1,0 +1,17 @@
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAL.Impl.deps.json
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAL.Impl.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAL.Impl.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\obj\Debug\netstandard2.0\CoffeeShop.DAL.Impl.csprojAssemblyReference.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\obj\Debug\netstandard2.0\CoffeeShop.DAL.Impl.AssemblyInfoInputs.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\obj\Debug\netstandard2.0\CoffeeShop.DAL.Impl.AssemblyInfo.cs
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\obj\Debug\netstandard2.0\CoffeeShop.DAL.Impl.csproj.CopyComplete
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\obj\Debug\netstandard2.0\CoffeeShop.DAL.Impl.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\obj\Debug\netstandard2.0\CoffeeShop.DAL.Impl.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAO.Impl.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAO.Impl.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAO.Impl.dll.config
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\obj\Debug\netstandard2.0\CoffeeShop.DAL.Impl.csproj.CoreCompileInputs.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAO.Abstract.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAO.Abstract.pdb

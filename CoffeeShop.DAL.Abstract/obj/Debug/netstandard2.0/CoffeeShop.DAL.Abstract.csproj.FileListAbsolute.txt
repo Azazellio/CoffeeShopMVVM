@@ -1,0 +1,12 @@
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\bin\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.deps.json
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\bin\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\bin\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\obj\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.csprojAssemblyReference.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\obj\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.csproj.CoreCompileInputs.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\obj\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.AssemblyInfoInputs.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\obj\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.AssemblyInfo.cs
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\obj\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\obj\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\bin\Debug\netstandard2.0\CoffeeShop.DAO.Abstract.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\bin\Debug\netstandard2.0\CoffeeShop.DAO.Abstract.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Abstract\obj\Debug\netstandard2.0\CoffeeShop.DAL.Abstract.csproj.CopyComplete

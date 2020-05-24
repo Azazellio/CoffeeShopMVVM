@@ -1,0 +1,9 @@
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.Models\bin\Debug\netstandard2.0\CoffeeShop.Models.deps.json
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.Models\bin\Debug\netstandard2.0\CoffeeShop.Models.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.Models\bin\Debug\netstandard2.0\CoffeeShop.Models.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.Models\obj\Debug\netstandard2.0\CoffeeShop.Models.csprojAssemblyReference.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.Models\obj\Debug\netstandard2.0\CoffeeShop.Models.csproj.CoreCompileInputs.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.Models\obj\Debug\netstandard2.0\CoffeeShop.Models.AssemblyInfoInputs.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.Models\obj\Debug\netstandard2.0\CoffeeShop.Models.AssemblyInfo.cs
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.Models\obj\Debug\netstandard2.0\CoffeeShop.Models.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.Models\obj\Debug\netstandard2.0\CoffeeShop.Models.pdb

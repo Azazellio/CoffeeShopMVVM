@@ -5,7 +5,7 @@ namespace CoffeeShop.Models
     public class Randomizer
     {
         private Random rand;
-        private Net net;
+        public Net net;
         public Randomizer(Net net)
         {
             this.net = net;
@@ -15,7 +15,7 @@ namespace CoffeeShop.Models
         {
             foreach (Recipe recipe in net.mapping.Keys)
             {
-                int rint = rand.Next(1, bound);
+                int rint = rand.Next(0, bound);
                 machine.ServeNumber(recipe, rint);
             }
         }

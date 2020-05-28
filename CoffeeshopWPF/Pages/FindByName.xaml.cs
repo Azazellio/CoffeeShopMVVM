@@ -1,4 +1,5 @@
 ﻿using CoffeeshopWPF.ViewModel;
+using CoffeeshopWPF.ViewModel.Impl;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,10 +22,10 @@ namespace CoffeeshopWPF.Pages
     /// </summary>
     public partial class FindByName : Page
     {
-        public FindByName()
+        public FindByName(MainVM context)
         {
             InitializeComponent();
-            DataContext = new MainVM();
+            DataContext = context;
         }
     }
 }

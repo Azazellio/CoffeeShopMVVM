@@ -1,7 +1,4 @@
-﻿using CoffeeShop.Business_Logic;
-using CoffeeShop.Classes;
-using CoffeeShop.Data_Handlers;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Configuration;
@@ -28,10 +25,6 @@ namespace CoffeeshopWPF
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-
-            
-            var container = new Container();
-            container.ProcessPresenter(new Presenter());
         }
     }
 }

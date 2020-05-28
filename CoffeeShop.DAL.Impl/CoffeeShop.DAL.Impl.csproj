@@ -13,6 +13,7 @@
     <ProjectReference Include="..\CoffeeShop.DAL.Abstract\CoffeeShop.DAL.Abstract.csproj" />
     <ProjectReference Include="..\CoffeeShop.DAO.Abstract\CoffeeShop.DAO.Abstract.csproj" />
     <ProjectReference Include="..\CoffeeShop.DAO.Impl\CoffeeShop.DAO.Impl.csproj" />
+    <ProjectReference Include="..\CoffeeShop.Models\CoffeeShop.Models.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using DAL.Abstract;
-using CoffeeShop.DAO.Impl.DAO;
+﻿using CoffeeShop.DAO.Impl.DAO;
 using CoffeeShop.DAO.Impl.DataContext;
-using Microsoft.EntityFrameworkCore;
+using CoffeeShop.DAL.Abstract;
 
 namespace CoffeeShop.DAL.Impl
 {

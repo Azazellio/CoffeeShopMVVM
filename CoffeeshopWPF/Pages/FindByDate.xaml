@@ -33,8 +33,9 @@
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="1">
-                <TextBlock Text="Ingr1:" Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" HorizontalAlignment="Center" VerticalAlignment="Center" Height="26" FontSize="18"/>
-                <TextBox Width="40" Height="20" Grid.Column="0" Margin="5,0,0,0"/>
+                <TextBlock Text="Coffee :" Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Height="26" FontSize="18"/>
+                <TextBox Width="40" Height="20" Grid.Column="0" Margin="5,0,0,0"  Text="{Binding SelectedModelIng1}"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="2">

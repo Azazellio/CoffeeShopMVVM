@@ -1705,7 +1705,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "CoffeeShop.DAO.Abstract": "1.0.0"
+          "CoffeeShop.DAO.Abstract": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.4"
         },
         "compile": {
           "bin/placeholder/CoffeeShop.DAL.Abstract.dll": {}
@@ -1739,6 +1740,16 @@
         },
         "runtime": {
           "bin/placeholder/CoffeeShop.DAO.Impl.dll": {}
+        }
+      },
+      "CoffeeShop.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CoffeeShop.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoffeeShop.Models.dll": {}
         }
       }
     }
@@ -6316,6 +6327,11 @@
       "type": "project",
       "path": "../CoffeeShop.DAO.Impl/CoffeeShop.DAO.Impl.csproj",
       "msbuildProject": "../CoffeeShop.DAO.Impl/CoffeeShop.DAO.Impl.csproj"
+    },
+    "CoffeeShop.Models/1.0.0": {
+      "type": "project",
+      "path": "../CoffeeShop.Models/CoffeeShop.Models.csproj",
+      "msbuildProject": "../CoffeeShop.Models/CoffeeShop.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6323,6 +6339,7 @@
       "CoffeeShop.DAL.Abstract >= 1.0.0",
       "CoffeeShop.DAO.Abstract >= 1.0.0",
       "CoffeeShop.DAO.Impl >= 1.0.0",
+      "CoffeeShop.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.4",
       "NETStandard.Library >= 2.0.3",
       "System.Configuration.ConfigurationManager >= 4.7.0"
@@ -6367,6 +6384,9 @@
             },
             "C:\\Users\\Nazar\\source\\repos\\CoffeeshopWPF\\CoffeeShop.DAO.Impl\\CoffeeShop.DAO.Impl.csproj": {
               "projectPath": "C:\\Users\\Nazar\\source\\repos\\CoffeeshopWPF\\CoffeeShop.DAO.Impl\\CoffeeShop.DAO.Impl.csproj"
+            },
+            "C:\\Users\\Nazar\\source\\repos\\CoffeeshopWPF\\CoffeeShop.Models\\CoffeeShop.Models.csproj": {
+              "projectPath": "C:\\Users\\Nazar\\source\\repos\\CoffeeshopWPF\\CoffeeShop.Models\\CoffeeShop.Models.csproj"
             }
           }
         }

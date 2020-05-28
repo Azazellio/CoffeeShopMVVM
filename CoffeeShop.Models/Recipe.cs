@@ -6,20 +6,24 @@ namespace CoffeeShop.Models
 {
     public class Recipe
     {
-        private static int _id = 0;
-        public int id { get; private set; }
+        public int id { get; set; }
         private Dictionary<Ingredient, int> ingredientsP;
         public IReadOnlyDictionary<Ingredient, int> ingredients {get => ingredientsP; }
         public Net net;
-        public Recipe(Net net, Drink drink, Dictionary<Ingredient, int> ingred)
+        public Recipe(Net net, Dictionary<Ingredient, int> ingred)
         {
             this.net = net;
             var ingredients = new Dictionary<Ingredient, int>();
-            ingredients = ingred;
-            var newingredients = CheckRecipe(ingredients);
-            this.ingredientsP = newingredients;
-            this.id = _id;
-            _id++;
+            ingredientsP = ingred;
+        }
+        public Recipe(Dictionary<Ingredient, int> ingred)
+        {
+            var ingredientsP = new Dictionary<Ingredient, int>();
+            ingredientsP = ingred;
+        }
+        public void SetNet(Net net)
+        {
+            this.net = net;
         }
         private Dictionary<Ingredient, int> CheckRecipe(Dictionary<Ingredient, int> oldIngr)
         {
@@ -37,7 +41,8 @@ namespace CoffeeShop.Models
         }
         public int GetAmount(Ingredient ingredient)
         {
-            return this.ingredients[ingredient];
+            var ing = this.ingredientsP.First(x=>x.Key.name == ingredient.name).Key;
+            return this.ingredients[ing];
         }
     }
 }

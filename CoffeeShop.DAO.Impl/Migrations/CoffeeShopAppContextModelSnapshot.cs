@@ -73,16 +73,7 @@ namespace CoffeeShop.DAO.Impl.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CurrentCapacityCoffee")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CurrentCapacityMilk")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CurrentCapacitySugar")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CurrentCapacityWater")
+                    b.Property<int>("CurrentCapacityIngredient")
                         .HasColumnType("int");
 
                     b.Property<int?>("IngredientDAOId")
@@ -91,16 +82,7 @@ namespace CoffeeShop.DAO.Impl.Migrations
                     b.Property<int?>("MachineDAOId")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaxCapacityCoffee")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MaxCapacityMilk")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MaxCapacitySugar")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MaxCapacityWater")
+                    b.Property<int>("MaxCapacityIngredient")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -144,22 +126,42 @@ namespace CoffeeShop.DAO.Impl.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Count")
-                        .HasColumnType("int");
-
                     b.Property<int?>("DrinkDAOId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("IngredientDAOId")
-                        .HasColumnType("int");
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("DrinkDAOId");
 
+                    b.ToTable("RecipeDAOs");
+                });
+
+            modelBuilder.Entity("CoffeeShop.DAO.Impl.DAO.RecipeIngredientDAO", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("IngredientDAOId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("RecipeDAOId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
                     b.HasIndex("IngredientDAOId");
 
-                    b.ToTable("RecipeDAOs");
+                    b.HasIndex("RecipeDAOId");
+
+                    b.ToTable("RecipeIngredientDAOs");
                 });
 
             modelBuilder.Entity("CoffeeShop.DAO.Impl.DAO.DrinkDAO", b =>
@@ -196,10 +198,17 @@ namespace CoffeeShop.DAO.Impl.Migrations
                     b.HasOne("CoffeeShop.DAO.Impl.DAO.DrinkDAO", "DrinkDAO")
                         .WithMany()
                         .HasForeignKey("DrinkDAOId");
+                });
 
+            modelBuilder.Entity("CoffeeShop.DAO.Impl.DAO.RecipeIngredientDAO", b =>
+                {
                     b.HasOne("CoffeeShop.DAO.Impl.DAO.IngredientDAO", "IngredientDAO")
                         .WithMany()
                         .HasForeignKey("IngredientDAOId");
+
+                    b.HasOne("CoffeeShop.DAO.Impl.DAO.RecipeDAO", "RecipeDAO")
+                        .WithMany()
+                        .HasForeignKey("RecipeDAOId");
                 });
 #pragma warning restore 612, 618
         }

@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using CoffeeshopWPF.ViewModel.Impl;
 
 namespace CoffeeshopWPF.Pages
 {
@@ -21,10 +22,10 @@ namespace CoffeeshopWPF.Pages
     /// </summary>
     public partial class FindByDate : Page
     {
-        public FindByDate()
+        public FindByDate(MainVM context)
         {
             InitializeComponent();
-            DataContext = new MainVM();
+            DataContext = context;
         }
     }
 }

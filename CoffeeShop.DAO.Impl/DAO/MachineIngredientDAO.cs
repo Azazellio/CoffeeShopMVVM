@@ -23,15 +23,9 @@ namespace CoffeeShop.DAO.Impl.DAO
         [ForeignKey(nameof(IngredientDAOId))]
         public IngredientDAO IngredientDAO { get; set; }
 
-        public int MaxCapacityWater { get; set; }
-        public int MaxCapacityCoffee { get; set; }
-        public int MaxCapacitySugar { get; set; }
-        public int MaxCapacityMilk { get; set; }
+        public int MaxCapacityIngredient { get; set; }
 
-        public int CurrentCapacityWater { get; set; }
-        public int CurrentCapacityCoffee { get; set; }
-        public int CurrentCapacitySugar { get; set; }
-        public int CurrentCapacityMilk { get; set; }
+        public int CurrentCapacityIngredient { get; set; }
 
     }
 }

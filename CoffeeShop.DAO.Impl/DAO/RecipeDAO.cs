@@ -12,16 +12,11 @@ namespace CoffeeShop.DAO.Impl.DAO
     {
         [Key]
         public int Id { get; set; }
-        public int Count { get; set; }
+        public string Name { get; set; }
 
         [AllowNull]
         public int? DrinkDAOId { get; set; }  //foreign key to drink table
         [ForeignKey(nameof(DrinkDAOId))]
         public DrinkDAO DrinkDAO { get; set; }
-
-        [AllowNull]
-        public int? IngredientDAOId { get; set; } //foreign key to ingredient table
-        [ForeignKey(nameof(IngredientDAOId))]
-        public IngredientDAO IngredientDAO { get; set; }
     }
 }

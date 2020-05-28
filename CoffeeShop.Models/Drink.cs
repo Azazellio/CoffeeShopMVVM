@@ -8,15 +8,17 @@ namespace CoffeeShop.Models
 {
     public class Drink : ICloneable
     {
-        private static int _id = 0;
-        public int id { get; private set; }
+        public int Id { get; set; }
         public string name { get; private set; }
         public DateTime time { get; private set; }
         public Drink(string name)
         {
             this.name = name;
-            this.id = _id;
-            _id++;
+        }
+        public Drink(string name, int id)
+        {
+            this.name = name;
+            this.Id = id;
         }
         public object Clone()
         {

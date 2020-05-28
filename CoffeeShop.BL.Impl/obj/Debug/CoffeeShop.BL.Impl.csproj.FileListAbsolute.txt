@@ -1,0 +1,9 @@
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.BL.Impl\bin\Debug\CoffeeShop.BL.Impl.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.BL.Impl\bin\Debug\CoffeeShop.BL.Impl.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.BL.Impl\bin\Debug\CoffeeShop.Models.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.BL.Impl\bin\Debug\CoffeeShop.Models.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.BL.Impl\obj\Debug\CoffeeShop.BL.Impl.csprojAssemblyReference.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.BL.Impl\obj\Debug\CoffeeShop.BL.Impl.csproj.CoreCompileInputs.cache
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.BL.Impl\obj\Debug\CoffeeShop.BL.Impl.csproj.CopyComplete
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.BL.Impl\obj\Debug\CoffeeShop.BL.Impl.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.BL.Impl\obj\Debug\CoffeeShop.BL.Impl.pdb

@@ -1,44 +1,46 @@
 ﻿using System;
 using System.Windows.Input;
 
-class RelayCommand : ICommand
+namespace CoffeeshopWPF.Infrastructure
 {
-    readonly Action<object> _execute;
-    readonly Predicate<object> _canExecute;
-
-    public RelayCommand(Action<object> execute) : this(execute, null) { }
-
-    public RelayCommand(Action<object> execute, Predicate<object> canExecute = null)
+    public class RelayCommand : ICommand
     {
-        if (execute == null)
+        readonly Action<object> _execute;
+        readonly Predicate<object> _canExecute;
+
+        public RelayCommand(Action<object> execute) : this(execute, null) { }
+
+        public RelayCommand(Action<object> execute, Predicate<object> canExecute = null)
         {
-            throw new ArgumentNullException("execute");
+            if (execute == null)
+            {
+                throw new ArgumentNullException("execute");
+            }
+
+            _execute = execute;
+            _canExecute = canExecute;
         }
 
-        _execute = execute;
-        _canExecute = canExecute;
-    }
-
-    public bool CanExecute(object parameter)
-    {
-        return _canExecute == null ? true : _canExecute.Invoke(parameter);
-    }
-
-    public event EventHandler CanExecuteChanged
-    {
-        add
+        public bool CanExecute(object parameter)
         {
-            CommandManager.RequerySuggested += value;
+            return _canExecute == null ? true : _canExecute.Invoke(parameter);
         }
-        remove
-        {
-            CommandManager.RequerySuggested -= value;
-        }
-    }
 
-    public void Execute(object parameter)
-    {
-        _execute.Invoke(parameter);
+        public event EventHandler CanExecuteChanged
+        {
+            add
+            {
+                CommandManager.RequerySuggested += value;
+            }
+            remove
+            {
+                CommandManager.RequerySuggested -= value;
+            }
+        }
+
+        public void Execute(object parameter)
+        {
+            _execute.Invoke(parameter);
+        }
     }
 }
-

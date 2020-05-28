@@ -140,3 +140,6 @@ C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeshopWPF\bin\Debug\System.Text.Js
 C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeshopWPF\bin\Debug\System.ValueTuple.xml
 C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeshopWPF\bin\Debug\CoffeeShop.DAO.Abstract.dll
 C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeshopWPF\bin\Debug\CoffeeShop.DAO.Abstract.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeshopWPF\bin\Debug\CoffeeShop.DAL.Impl.dll.config
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeshopWPF\bin\Debug\CoffeeShop.BL.Impl.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeshopWPF\bin\Debug\CoffeeShop.BL.Impl.pdb

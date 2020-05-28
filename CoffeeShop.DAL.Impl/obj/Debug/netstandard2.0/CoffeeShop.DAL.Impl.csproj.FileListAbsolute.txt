@@ -12,6 +12,13 @@ C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\obj\Debug\netstand
 C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAO.Impl.dll
 C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAO.Impl.pdb
 C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAO.Impl.dll.config
-C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\obj\Debug\netstandard2.0\CoffeeShop.DAL.Impl.csproj.CoreCompileInputs.cache
 C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAO.Abstract.dll
 C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAO.Abstract.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.Models.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.Models.pdb
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\CoffeeShop.DAL.Impl.dll.config
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\System.Configuration.xml
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\bin\Debug\netstandard2.0\System.Security.xml
+C:\Users\Nazar\source\repos\CoffeeshopWPF\CoffeeShop.DAL.Impl\obj\Debug\netstandard2.0\CoffeeShop.DAL.Impl.csproj.CoreCompileInputs.cache

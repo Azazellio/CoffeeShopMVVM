@@ -6,9 +6,9 @@ namespace CoffeeShop.Models
 {
     public class Net
     {
-        private List<Machine> machinesP;
+        public List<Machine> machinesP;
         public IReadOnlyList<Machine> machines { get => machinesP.AsReadOnly(); }
-        private List<Ingredient> ingredientsP;
+        public List<Ingredient> ingredientsP;
         public IReadOnlyList<Ingredient> ingredients { get => ingredientsP.AsReadOnly(); }
 
         private Dictionary<Recipe, Drink> mappingP;
@@ -30,22 +30,34 @@ namespace CoffeeShop.Models
                 {ingredientsP[3], 0 },
             };
         }
-        /*public Net()
+        public Net(List<Ingredient> ingredientsValue)
         {
-            var bs = new BinarySerializer();
-            var newNet = (Net)bs.Deserialize(ConfigurationManager.AppSettings["binfile"]);
-            this.ingredientsP = new List<Ingredient>(newNet.ingredientsP)
-            this.machinesP = new List<Machine>(newNet.machinesP);
-            this.mappingP = new Dictionary<Recipe, Drink>(newNet.mappingP);
-            this.EmptyDictIngred = new Dictionary<Ingredient, int>(newNet.EmptyDictIngred);
-        }*/
+            ingredientsP = new List<Ingredient>();
+            foreach(Ingredient ing in ingredientsValue)
+            {
+                ingredientsP.Add(ing);
+            }
+            machinesP = new List<Machine>();
+            mappingP = new Dictionary<Recipe, Drink>();
+            EmptyDictIngred = new Dictionary<Ingredient, int>()
+            {
+                {ingredientsP[0], 0 },
+                {ingredientsP[1], 0 },
+                {ingredientsP[2], 0 },
+                {ingredientsP[3], 0 },
+            };
+        }
+        public void AddMachine(Machine machine)
+        {
+            this.machinesP.Add(machine);
+        }
         private void AddMap(Recipe recipe, Drink drink)
         {
             mappingP.Add(recipe, drink);
         }
         public Recipe AddRecipe(Drink drink, Dictionary<Ingredient, int> ingred)
         {
-            var newRecipe = new Recipe(this, drink, ingred);
+            var newRecipe = new Recipe(this, ingred);
             AddMap(newRecipe, drink);
             return newRecipe;
         }
@@ -58,6 +70,13 @@ namespace CoffeeShop.Models
         public List<Ingredient> GetIngredients()
         {
             return new List<Ingredient>(this.ingredientsP);
+        }
+        public void RefillAll()
+        {
+            foreach(Machine m in this.machinesP)
+            {
+                m.Refill();
+            }
         }
     }
 }

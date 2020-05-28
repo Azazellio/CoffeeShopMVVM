@@ -17,7 +17,7 @@
                 <MenuItem Header="Guess" Click="MenuItem1Click"></MenuItem>
                 <MenuItem Header="Find By Name" Click="MenuItem2Click">
                     <StackPanel Orientation="Horizontal">
-                        <Label Content="Enter Id:"></Label>
+                        <Label Content="Find Id:"></Label>
                         <TextBox Width="25"/>
                     </StackPanel>
 
@@ -30,8 +30,9 @@
             <MenuItem Header="View" ></MenuItem>
         </Menu>
 
+
         <Frame x:Name="Container" Grid.Row="1" NavigationUIVisibility="Hidden">
-            
         </Frame>
+        <!--<Label Content="{Binding netings}" HorizontalAlignment="Left" Margin="119,73.667,0,0" Grid.Row="1" VerticalAlignment="Top"/>-->
     </Grid>
 </Window>
